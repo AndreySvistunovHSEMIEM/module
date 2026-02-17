@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/barmaley/Desktop/test_submodules/main status)",
+      "Bash(git -C /Users/barmaley/Desktop/test_submodules/main rev-parse --git-dir)",
+      "Bash(uv run pytest:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git init:*)",
+      "Bash(git submodule add:*)",
+      "Bash(git -c protocol.file.allow=always submodule add ../modules libs/modules)",
+      "Bash(python src/main_app/cli.py:*)",
+      "Bash(git -c protocol.file.allow=always submodule update:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
