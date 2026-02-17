@@ -9,3 +9,10 @@ def binary_search(arr: list, target) -> int:
         else:
             high = mid - 1
     return -1
+
+
+def linear_search(arr: list, target) -> int:
+    for i, item in enumerate(arr):
+        if item == target:
+            return i
+    return -1
